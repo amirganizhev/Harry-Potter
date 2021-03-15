@@ -1,0 +1,26 @@
+{
+  "name": "harrypotter",
+  "version": "1.0.0",
+  "description": "Сайт по тематике Гарри Поттера, с тестом на факультеты Хогвартса",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirganizhev/Harry-Potter.git"
+  },
+  "keywords": [
+    "Гарри",
+    "Поттер",
+    "Хогвартс",
+    "факультеты",
+    "Хогвартса"
+  ],
+  "author": "Амир Ганижев",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirganizhev/Harry-Potter/issues"
+  },
+  "homepage": "https://github.com/amirganizhev/Harry-Potter#readme"
+}
