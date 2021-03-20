@@ -1,18 +1,18 @@
 /*Кнопка вывода результата*/
-let result = document.querySelector('.result');
+const result = document.querySelector('.result');
 
 result.onclick = () => {
 
 	/*Переменные вопросов*/
-	let doorQuestion = document.querySelectorAll('.door-question');
-	let surpriseQuestion = document.querySelectorAll('.surprise-question');
-	let weddingQuestion = document.querySelectorAll('.wedding-question');
-	let wandQuestion = document.querySelectorAll('.wand-question');
-	let locationQuestion = document.querySelectorAll('.location-question');
-	let personQuestion = document.querySelectorAll('.person-question');
-	let teacherQuestion = document.querySelectorAll('.teacher-question');
-	let spellQuestion = document.querySelectorAll('.spell-question');
-	let disciplineQuestion = document.querySelectorAll('.discipline-question');
+	const doorQuestion = document.querySelectorAll('.door-question');
+	const surpriseQuestion = document.querySelectorAll('.surprise-question');
+	const weddingQuestion = document.querySelectorAll('.wedding-question');
+	const wandQuestion = document.querySelectorAll('.wand-question');
+	const locationQuestion = document.querySelectorAll('.location-question');
+	const personQuestion = document.querySelectorAll('.person-question');
+	const teacherQuestion = document.querySelectorAll('.teacher-question');
+	const spellQuestion = document.querySelectorAll('.spell-question');
+	const disciplineQuestion = document.querySelectorAll('.discipline-question');
 	/*Переменные к которым присваиваются значения при выбора вопроса*/
 	let doorScore;
 	let surpriseScore;
@@ -152,17 +152,17 @@ result.onclick = () => {
 	}
 
 	/*Названия факультетов*/
-	let gryffindor = document.querySelector('.gryffindor');
-	let ravenclaw = document.querySelector('.ravenclaw');
-	let hufflepuff = document.querySelector('.hufflepuff');
-	let slytherin = document.querySelector('.slytherin');
+	const gryffindor = document.querySelector('.gryffindor');
+	const ravenclaw = document.querySelector('.ravenclaw');
+	const hufflepuff = document.querySelector('.hufflepuff');
+	const slytherin = document.querySelector('.slytherin');
 	/*Фото факультетов*/
-	let gryffindorImage = document.querySelector('.gryffindor-image');
-	let ravenclawImage = document.querySelector('.ravenclaw-image');
-	let hufflepuffImage = document.querySelector('.hufflepuff-image');
-	let slytherinImage = document.querySelector('.slytherin-image'); 
+	const gryffindorImage = document.querySelector('.gryffindor-image');
+	const ravenclawImage = document.querySelector('.ravenclaw-image');
+	const hufflepuffImage = document.querySelector('.hufflepuff-image');
+	const slytherinImage = document.querySelector('.slytherin-image'); 
 	/*Блок с тестом*/
-	let testing = document.querySelector('.testing');
+	const testing = document.querySelector('.testing');
 
 	/*Суммирование результатов переменных, к которым присваиваются значения при выбора вопроса*/
 	let sumScore = doorScore + surpriseScore + weddingScore + 
@@ -212,7 +212,7 @@ result.onclick = () => {
 }
 
 /*Кнопка прохождения тестирования заново*/
-let testStart = document.querySelector('.test-start');
+const testStart = document.querySelector('.test-start');
 
 testStart.onclick = () => {
 	location.reload();
